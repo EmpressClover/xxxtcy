@@ -10,6 +10,15 @@ body {
     letter-spacing: 3px;
 }
 
+
+.title3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #0e0e0e;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 #mainroot {
     display: flex;
     flex-direction: column;
@@ -19,6 +28,17 @@ body {
     align-content: center;
     position: relative;
 }
+
+#secondroot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
 
 .header {
     flex-grow: 0;
@@ -147,6 +167,162 @@ body {
 }
 
 
+.buttonlist3 {
+    background: #dadada;
+    color: #0e0e0e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 250px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    max-height: 50px;
+    min-height: 48px;
+}
+
+
+.buttonlist0 {
+    background: #dadada;
+    color: #0e0e0e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 250px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    max-height: 60px;
+}
+
+
+.buttonlist00 {
+    background: #dadada;
+    color: #0e0e0e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 250px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    max-height: 75px;
+}
+
+.buttonlist4 {
+    background: #0e0e0e;
+    color: #dadada;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 65px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    margin-bottom: 10px;
+    max-height: 50px;
+    min-height: 48px;
+}
+
+
+.buttonlist01 {
+    background: #0e0e0e;
+    color: #dadada;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 65px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    margin-bottom: 10px;
+    max-height: 60px;
+    min-height: 48px;
+}
+
+
+.buttonlist02 {
+    background: #0e0e0e;
+    color: #dadada;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 65px;
+    word-break: break-word;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    margin-bottom: 10px;
+    max-height: 75px;
+    min-height: 75px;
+}
+
+
+
+.mini {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    top: -15px;
+    position: relative;
+    height: auto;
+    font-weight: 500;
+}
+
+.mini2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    top: -15px;
+    position: relative;
+    height: auto;
+    font-weight: 500;
+}
+
+
+
 /* ------------------------------------------------------------------------------------------------------ */
 
 .topname {
@@ -162,9 +338,9 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    top:-70px;
-    width: 85vw;
-        background-color: #e2e2e2;
+    top:-0px;
+    width: 400px;
+        background-color: #e2e2e200;
 }
 
 .topname p{
@@ -182,7 +358,21 @@ body {
     position: relative;
     width: 85vw;
     margin: auto;
+    background-color: #ec030300;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
     background-color: #dadada;
+    width: 55vw;
+    margin: 10px;
+    border: 1px solid black;
 }
 
 
@@ -193,13 +383,61 @@ body {
     flex-direction: row;
     height: auto;
     position: relative;
-    width: 95vw;
+    width: 400px;
     margin: auto;
     top: -70px;
     margin-bottom: 20px;
 }
 
+
+.gallery20 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    margin: auto;
+
+}
+
+
+
+
 .gallerylist {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+
+.gallerylist20 {
+    width: auto;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.gallerylist20 li {
+padding-bottom: 10px;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+.costs {
     list-style-type: none;
     margin: auto;
     padding: 0px;
@@ -211,9 +449,11 @@ body {
     flex-wrap: wrap;
 }
 
+
+
 .gallerylist li {
     padding: 0px;
-    margin: 10px;
+    margin: 0px;
     position: relative;
 
 }
